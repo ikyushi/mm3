@@ -1,0 +1,76 @@
+/*
+
+simplesentai - simple, lightweight, and somewhat-editable
+
+Used as a "css snippet", so it can be held in the vault .obsidian/snippets/ folder
+
+*/
+
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&family=Noto+Sans+KR:wght@300;400&family=Prompt:wght@200;300;400&family=Source+Code+Pro:wght@200;300;400&display=swap');
+
+@import url('sentai-fonts/en/Prompt-Regular.ttf');
+@import url('sentai-fonts/jp/NotoSansJP-Regular.otf');
+@import url('sentai-fonts/kr/NotoSansKR-Regular.otf');
+@import url('sentai-fonts/other/SourceCodePro-Regular.ttf');
+
+.code {
+	font-family: "Source Code Pro", monospace;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.workspace {
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.theme-dark {
+    --opacity-translucency: 0.65;
+}
+
+:root {
+
+	/* Colors */
+	--background-primary: #202020;
+    --background-primary-alt: #1a1a1a;
+    --background-secondary: #161616;
+    --background-secondary-alt: #000000;
+    --background-modifier-border: #333;
+    --background-modifier-form-field: rgba(0, 0, 0, 0.3);
+    --background-modifier-form-field-highlighted: rgba(0, 0, 0, 0.22);
+    --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
+    --background-modifier-success: #197300;
+    --background-modifier-error: #3d0000;
+    --background-modifier-error-rgb: 61, 0, 0;
+    --background-modifier-error-hover: #470000;
+    --background-modifier-cover: rgba(0, 0, 0, 0.8);
+    --text-accent: #7f6df2;
+    --text-accent-hover: #8875ff;
+    --text-normal: #dcddde;
+    --text-muted: #999;
+    --text-muted-rgb: 153, 153, 153;
+    --text-faint: #666;
+    --text-error: #ff3333;
+    --text-error-hover: #990000;
+    --text-highlight-bg: rgba(255, 255, 0, 0.4);
+    --text-highlight-bg-active: rgba(255, 128, 0, 0.4);
+    --text-selection: rgba(23, 48, 77, 0.99);
+    --text-on-accent: #dcddde;
+    --interactive-normal: #2a2a2a;
+    --interactive-hover: #303030;
+    --interactive-accent: #483699;
+    --interactive-accent-rgb: 72, 54, 153;
+    --interactive-accent-hover: #4d3ca6;
+    --interactive-success: #197300;
+    --scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.2);
+    --scrollbar-bg: rgba(255, 255, 255, 0.05);
+    --scrollbar-thumb-bg: rgba(255, 255, 255, 0.1);
+    --highlight-mix-blend-mode: lighten;
+
+	/* Fonts */
+	--default-font: "Prompt", "Noto Sans JP", "Noto Sans KR";
+    --mermaid-font: var(--default-font);
+    --reveal-font: var(--default-font);
+    --font-monospace: 'Source Code Pro', monospace;
+}
